@@ -1,7 +1,7 @@
 import requests
 import gradio as gr
 
-# 定义函数（key，）
+# 定义函数
 def fetch_mars_rover_photos(api_key, sol=1000, page=1, camera=None):
     base_url = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos"
     # 设置请求参数
